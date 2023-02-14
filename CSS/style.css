@@ -1,0 +1,215 @@
+/* global */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'SF.Pro.Display,.sans-serif';
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+/* header */
+.header-container{
+    /* position: fixed; */
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 4.4rem;
+    background-color: rgba(0,0,0,.8);
+    backdrop-filter: blur(2rem);
+    padding-bottom: 2.2rem;
+    padding-top: 2.2rem;
+}
+.nav-div{
+    width: 980px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+    
+}
+
+.nav-item{
+    align-items: center;
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    color: white;
+    padding: 1rem;
+    transition: opacity .5s;
+    align-items: center;
+}
+
+.nav-link:hover{
+    opacity: .7;
+}
+
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("../images/icons/logo.svg") center no-repeat;
+}
+
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("../images/icons/search-icon.png") center no-repeat;
+}
+
+.nav-link-cart{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url("../images/icons/cart.svg") center no-repeat;
+}
+
+/* Mac book pro section */
+.mac-book-pro{
+    height: 69.2rem;
+    background: url(../images/home/macbook-pro.jpg);
+    margin-top: 4.4rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    color: black;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-dark{
+    color: white;
+    text-align: center;
+    padding-top: 5.5rem;
+    position: relative;
+}
+
+.title-heading, .title-sub-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: .008rem;
+    font-weight: 400 ;
+}
+.title-price{
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: 0.68rem;
+}
+
+.lmab{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.lmab-link{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+
+.lmab-link:last-child{
+    margin-left: 2.6rem;
+}
+
+/* iphon 11 pro */
+.iphone-11-pro{
+background: url(../images/home/iphone11-pro-bg.jpg);
+    margin-top: 4.4rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 69.2rem;
+}
+
+/* iphon 11 */
+
+.iphone-11{
+    background: url(../images/home/iphone11-bg.jpg);
+    margin-top: 4.4rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 69.2rem;
+}
+
+/* watch and card */
+.watch, .card{
+    display: inline-block;
+    align-items: center;
+    width: 49%;
+    /* margin-top: 1rem; */
+    background-size: auto 90.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 69.2rem;
+    padding-top: 280px;
+    font-size: 15px;  
+}
+.watch{
+    background: url(../images/home/watch-series-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card{
+    background: url(../images/home/apple-card.jpg);
+    background-position: center;
+    margin-left: 39px;
+    background-repeat: no-repeat;
+}
+
+.title-heading-watch{
+    background: url(../images/icons/watch-series5-logo.png) center no-repeat;
+    background-size: auto 7.8rem;
+
+}
+
+.title-heading-card{
+    background: url(../images/icons/watch-series5-logo.png) center no-repeat;
+    background-size: auto 7.8rem;
+
+}
+
+/* tv and air-pods */
+.tv, .ipod{
+    display: inline-block;
+    align-items: center;
+    width: 49%;
+    margin-top: 3rem;
+    background-size: auto 90.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 69.2rem;
+    padding-top: 8px;  
+}
+.tv{
+    background: url(../images/home/apple-tv-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ipod{
+    background: url(../images/home/air-pods.jpg);
+    background-position: center;
+    margin-left: 39px;
+    background-repeat: no-repeat;
+}
+.trailer{
+    vertical-align: bottom;
+}
